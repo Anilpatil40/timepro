@@ -1,5 +1,6 @@
 @extends('layouts.app')
-
+@section('page-name', 'User Form')
+@section('back', route('sectors', ['gameId' => $gameId]))
 @section('content')
     <div class="container" style="max-width: 700px;">
         <form class="d-flex flex-column" style="gap: 16px;" method="POST">

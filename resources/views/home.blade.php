@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 @section('content')
 <div class="d-flex flex-column align-items-center">
     <h1>PLAY SMART,</h1>

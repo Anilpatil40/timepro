@@ -19,9 +19,9 @@ class GameController extends Controller
         return view('games.sectors', ['sectors' => $sectors, 'gameId' => $gameId]);
     }
 
-    public function userForm()
+    public function userForm($gameId)
     {
-        return view('games.user-form');
+        return view('games.user-form', compact('gameId'));
     }
     public function userFormSubmit(Request $request, $gameId, $sectorId)
     {

@@ -1,5 +1,6 @@
 @extends('layouts.app')
-
+@section('page-name', 'Score')
+@section('back', route('main'))
 @section('content')
     <div class="bg-dark text-light p-4" style="border-bottom-left-radius: 40%;border-bottom-right-radius: 40%;">
         <div class="d-flex flex-column align-items-center" style="gap: 20px;">

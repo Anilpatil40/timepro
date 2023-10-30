@@ -1,5 +1,6 @@
 @extends('layouts.app')
-
+@section('page-name', 'Choose Sector')
+@section('back', route('choose-game'))
 @section('content')
     <div class="container">
         <h4>To begin, first select the sector of your choice</h4>

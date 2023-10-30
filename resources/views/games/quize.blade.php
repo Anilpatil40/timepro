@@ -1,5 +1,6 @@
 @extends('layouts.app')
-
+@section('page-name', 'Quiz')
+@section('back', route('main'))
 @section('content')
     <div class="container">
         <div class="row">
